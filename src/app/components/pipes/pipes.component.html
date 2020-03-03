@@ -1,0 +1,49 @@
+<!-- <div align="center">
+    <h1>UpperCase: </h1>
+    {{ upper | uppercase | lowercase | uppercase }}
+</div>
+<div align="center">
+    <h1>Lowercase: </h1>
+    {{ upper | lowercase }}
+</div>
+<div align="center">
+    <h1>Titlecase: </h1>
+    {{ texto | titlecase }}
+</div>
+<div align="center">
+    <h1>JsonPipe: </h1>
+    {{ person | json }}
+</div>
+<div align="center">
+    <h1>decimalPipe: </h1>
+    {{ minumero | number:'4.2-5':'co'}}
+    <h3>{{ laslukas | number }}</h3>
+</div>
+
+<div align="center">
+    <h1>datePipe: </h1>
+    {{ mifecha | date:'fullDate': '': 'co' }}
+</div>
+ -->
+
+<div *ngFor="let item of heroes | flying:'caminantes': 'programar'">
+    {{ item | json }}
+</div>
+
+<button (click)="cambioDeArray()">  cambio </button>
+<button (click)="cambio()">  cambio </button>
+
+<h1>{{ mensaje | async }}</h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
